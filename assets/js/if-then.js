@@ -12,6 +12,8 @@ console.log('Opgave 1: skriv et expression der viser true når A er lig med B: '
 console.log('if (A == B)')
 if (A == B) {
     console.log('statement true! A == B');
+} else{
+    console.log('statement false! A != B');
 }
 
 
@@ -60,8 +62,8 @@ if (B == C){
 //opgave 6: Skriv en If then statement der sammenligner B = C og E = A hvis B=C skal den blive TRUE. 
 console.log('Opgave 6: Skriv en If then statement der sammenligner B = C og E = A hvis B=C skal den blive TRUE: ');
 
-if (B >= C || E <= A){
-    console.log('statement true! (B >= C || E <= A)');
+if (B == C || E == A){
+    console.log('statement true! (B == C || E == A)');
 } else{
-    console.log('statement false! (B !>= C || E !<= A)');
+    console.log('statement false! (B != C || E != A)');
 }
