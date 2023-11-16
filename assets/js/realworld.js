@@ -18,12 +18,32 @@ myAnsverButton.addEventListener('click', (e) => {
   og "du har svarret forkert" hvis svaret er false*/
   let myAnswer = myAnsverInput.value;
   console.log('Answer is: ' + myAnswer);
+
+  if(myAnswer == "true"){
+    alert('du har svaret rigtigt');
+  } else {
+    alert('du har svaret forkert');
+  }
 });
 
 /*Opgave 2: udkommenter opgave 1, og omskriv nu din funktion til to korrekte svar:
 nej
 ja i disney film
 */
+
+// myAnsverButton.addEventListener('click', (e) => {
+//   e.preventDefault();
+//   /* din kode her. Skriv en alert der skriver "du har svarret rigtigt" hvis svarret er true
+//   og "du har svarret forkert" hvis svaret er false*/
+//   let myAnswer = myAnsverInput.value;
+//   console.log('Answer is: ' + myAnswer);
+
+//   if(myAnswer == "true"){
+//     alert('du har svaret rigtigt');
+//   } else {
+//     alert('du har svaret forkert');
+//   }
+// });
 
 
 /*opgave 3: skriv en kode der valider formen med følgende elementer: (denne opgave er på extreme niveau) 
